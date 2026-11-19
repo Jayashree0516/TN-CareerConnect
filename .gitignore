@@ -1,0 +1,44 @@
+# Python cache and virtual environments
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/env/
+
+# Private environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Uploaded resumes
+**/uploads/
+
+# Node dependencies and build files
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Logs
+*.log
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+
+
+# Local Node.js installation
+/nodejs/
+
+# Local admin and testing utility scripts
+/backend/approve_test_job.py
+/backend/create_admin.py
+/backend/get_candidate_token.py
+/backend/get_employer_token.py
+/backend/reset_candidate_password.py
+/backend/reset_employer_password.py
+
+# Private authentication tokens
+**/*_token.txt
+
+# Downloaded test resumes
+**/downloaded_resume.pdf
+**/employer_downloaded_resume.pdf

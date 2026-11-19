@@ -1,0 +1,18 @@
+
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Private tokens
+*_token.txt
+
+# Downloaded test resumes
+downloaded_resume.pdf
+employer_downloaded_resume.pdf
+
+# Uploaded resumes
+uploads/
+
+# Environment folder
+env/
